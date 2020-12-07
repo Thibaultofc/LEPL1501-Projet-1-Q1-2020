@@ -15,10 +15,10 @@ g = 9.81             # Constante de gravitation [m/s^2]
  
 D = 10                  # coef d'amortissement
 I = 6.596               # Moment d'inertie [kg.m^2]
-mtot = 5                # Masse totale [kg]
 m = .4                  # Masse déplacée [kg]
 m1 = 3                  # Masse de la barge [kg]
 m2 = 1.5                # Masse de la grue [kg]
+mtot = m+m1+m2          # Masse totale [kg]
 d = 0.85                # Distance [m]
 L = 0.6                 # Largeur de la base carrée [m]
 h1 = 0.15               # Hauteur de la base [m]
