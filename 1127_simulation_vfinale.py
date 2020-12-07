@@ -113,7 +113,7 @@ def graphiques_distances_masses():
     # Traçage de chaque fonction pour chaque masse 
     
     simulation(1)
-    x_values = [0, 2]
+    x_values = [0, d]
     y_values = [x[0]*r, x[20]*r]
     plt.plot(x_values,y_values,label='m = 1kg')
     plt.legend()
@@ -127,6 +127,7 @@ def graphiques_distances_masses():
     y_values3 = [x[0]*r, x[20]*r]
     plt.plot(x_values,y_values3,label='m = 3kg')
     plt.legend()
+
     simulation(4)
     y_values4 = [x[0]*r, x[20]*r]
     plt.plot(x_values,y_values4,label='m = 4kg')
@@ -146,7 +147,7 @@ def graphiques_distances_masses():
  
     plt.xlabel('Distance (m)')
     plt.ylabel('Angle (º)')
-    plt.xlim(0,2)
+    plt.xlim(0,d)
     plt.ylim(0,angle_max*r+1)
     plt.show()
  
