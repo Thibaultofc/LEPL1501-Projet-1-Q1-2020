@@ -57,7 +57,7 @@ def simulation(m):
     
     # Equation: I*ang'' + D*ang' = C
  
-    ### Paramètres initials de l'équation
+    ### Paramètres initiaux de l'équation
     
     x[0] = x_0      
     x1[0] = x1_0    
